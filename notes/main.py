@@ -17,10 +17,7 @@ key_count = 0
 
 def menu():
 
-    note_dict = {1: ["first note", "1st note's text", datetime.datetime.now().strftime('%m/%d/%y %H:%M:%S')],
-                  2: ["second note", "2nd note's text", datetime.datetime.now().strftime('%m/%d/%y %H:%M:%S')],
-                 3: ["third note", "3rd note's text", datetime.datetime.now().strftime('%m/%d/%y %H:%M:%S')]}
-    #note_dict = {}
+    note_dict = {}
     key_count = len(note_dict)
     print("Введите 0 ,если хотите выйти ")
     print("Введите 1 ,если хотите добавить заметку ")
